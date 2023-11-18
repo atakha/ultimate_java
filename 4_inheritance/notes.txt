@@ -15,5 +15,9 @@
     if need then see the tutorial again.
 
 6- Overriding Methods
-    
+
+7- Upcasting and Downcasting
+    Up casting -> casting an object to one of its super types.
+    Down casting -> casting an object to one of its sub types.
+        Down cast may cause crash.
     

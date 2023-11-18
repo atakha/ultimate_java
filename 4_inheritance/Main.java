@@ -1,6 +1,15 @@
 public class Main{
     public static void main(String[] args) {
-        TextBox box = new TextBox("Bismillah");
-        System.out.println(box); //here we don't need to explicitly calling toString method
+        UIControl control = new UIControl(true);
+        TextBox textBox = new TextBox(null);
+        show(textBox);
+    }
+
+    public static void show(UIControl control) {
+        if(control instanceof TextBox) {
+            TextBox textBox = (TextBox)control;
+            textBox.setText("java is nice");
+        }
+        System.out.println(control);
     }
 }
