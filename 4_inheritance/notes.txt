@@ -6,5 +6,10 @@
     System.out.println(obj.hashCode());
     System.out.println(obj.equals(obj2));
     System.out.println(obj.toString());
+
 4 - Constructor and Inheritance
     super Constructor
+
+5- Access Modifiers
+    we should use private and public access modifier
+    if need then see the tutorial again.
