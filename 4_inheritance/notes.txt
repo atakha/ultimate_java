@@ -27,3 +27,9 @@
         return this.x == p.x && this.y ==p.y;
     }
     
+9- Polymorphism
+    OOP principles
+        *Encapsulation
+        *Abstraction
+        *Inheritance
+        *Polymorphism
