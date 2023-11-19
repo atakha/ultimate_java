@@ -20,4 +20,10 @@
     Up casting -> casting an object to one of its super types.
     Down casting -> casting an object to one of its sub types.
         Down cast may cause crash.
+
+8- Comparing Objects
+    @Override
+    public boolean equals(Point p) {
+        return this.x == p.x && this.y ==p.y;
+    }
     
